@@ -86,8 +86,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: black;
-  font-size: 50px;
-  margin-top: 40px;
+  font-size: 32px;
+  margin-top: 64px;
   margin-bottom: 40px;
   text-align: center;
   opacity: 0.8;
@@ -166,6 +166,33 @@ footer {
   font-weight: 600;
 }
 
+.navigation {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dropdown select {
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  width: 140px;
+  border-radius: 1000000px;
+  height: 40px;
+  padding-left: 10px;
+  margin: 0 10px;
+}
+
+select option {
+  border-radius: 10000;
+  border: none;
+  outline: none;
+}
+
 .flexbin {
   display: flex;
   flex-wrap: wrap;
@@ -241,8 +268,21 @@ footer {
         margin: 2.5px; } }
 
   @media screen and (max-width: 720px) {
+
+    .navigation {
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .sorry {
+      font-size: 24px;
+      top: 20px;
+    }
+
     .title {
-      top: 56%;
+      top: 47%;
     }
 
     .hero img {
@@ -266,6 +306,7 @@ footer {
     }
 
     .hero p {
+      display: none;
       font-size: 14px;
       width: 90vw;
     }
