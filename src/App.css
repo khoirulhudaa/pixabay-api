@@ -239,3 +239,46 @@ footer {
           vertical-align: bottom; }
       .flexbin.flexbin-margin {
         margin: 2.5px; } }
+
+  @media screen and (max-width: 720px) {
+    .title {
+      top: 56%;
+    }
+
+    .hero img {
+      width: auto;
+      height: auto;
+    }
+
+    .hero {
+      height: 75vh;
+    }
+
+    .hero input {
+      padding: 10px 10px 10px 10px;
+      width: 90vw;
+      height: 50px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      width: 90vw;
+    }
+
+    .hero p {
+      font-size: 14px;
+      width: 90vw;
+    }
+
+    .card img {
+      height: 81%;
+    }
+
+    .section2 .card {
+      width: 94vw;
+      height: 270px;
+      margin-bottom: 12px;
+    }
+
+
+  } 
